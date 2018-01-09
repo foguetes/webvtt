@@ -2,16 +2,28 @@ WEBVTT
 
 STYLE
 ::cue {
-  background-image: linear-gradient(to bottom, dimgray, lightgray);
-  color: papayawhip;
+  color: white
+  font-family: 'Roboto', sans-serif
+  font-size: 20px
+  line-height: 80px
+  background: none
+  text-shadow: 0px 0px 20px black
+    i
+      font-style: italic;
 }
 /* Style blocks cannot use blank lines nor "dash dash greater than" */
 
 NOTE comment blocks can be used between style blocks.
 
 STYLE
-::cue(b) {
-  color: peachpuff;
+::cue(v) {
+  color: $blood
+}
+
+STYLE
+::cue(c) {
+  color: white
+  opacity: 0.4
 }
 
 1
